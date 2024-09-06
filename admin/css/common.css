@@ -1,0 +1,47 @@
+:root{
+    --teal: #db3191ed;
+    --teal_hover: rgb(193, 102, 221);
+}
+
+
+.custom-bg{
+    background-color: var(--teal_hover);
+    border: 1px soild ver(--teal_hover);
+  }
+  .custom-bg:hover{
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
+  }
+
+  .avilability-form{
+    margin-top: -20px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+  }
+
+  .custom-alert{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+  }
+
+  #dashbord-menu{
+    position: fixed;
+    height: 900px;
+  }
+
+  @media screen and (max-width: 991px){
+    #dashbord-menu{
+      height: auto;
+      width: 100%;
+    }
+    #main-conten{
+      margin-top: 60px;
+    }
+  }

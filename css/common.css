@@ -1,0 +1,26 @@
+:root{
+    --teal: #db3191ed;
+    --teal_hover: rgb(193, 102, 221);
+}
+
+
+.custom-bg{
+    background-color: var(--teal_hover);
+    border: 1px soild var(--teal_hover);
+  }
+  .custom-bg:hover{
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
+  }
+
+  .avilability-form{
+    margin-top: -20px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+  }
